@@ -49,8 +49,9 @@ class ReadHandler():
             test_fea.append(self.fea[id])
         return test_fea,test_gnd
    
-    
-read=ReadHandler('PIE dataset/Pose05_64x64.mat')
+"""
+read=ReadHandler('PIE dataset/Pose29_64x64.mat')
 train_fea,train_gnd=read.read_train()
 test_fea,test_gnd=read.read_test()
 print(len(test_gnd),len(train_gnd))
+"""
